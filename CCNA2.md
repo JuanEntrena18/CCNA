@@ -2,7 +2,7 @@ CCNA 2
 
 1. Los usuarios se quejan de un acceso esporádico a Internet cada tarde. ¿Qué se debe hacer o verificar?
 
-    Compruebe las estadísticas de la ruta predeterminada para la sobresaturación.
+    **Compruebe las estadísticas de la ruta predeterminada para la sobresaturación.**
 	
 2. Consulte la ilustración. ¿Qué hará el router R1 con 
 un paquete que tiene una dirección IPv6 de destino 2001:db8:cafe:5::1?
@@ -70,7 +70,7 @@ conmutación por error de HSRP. (No se utilizan todas las opciones).
 
 15. Una compañía está implementando una red inalámbrica en la instalación de distribución en la periferia de Boston. El depósito es muy grande y necesita utilizar varios puntos de acceso. Debido a que algunos de los dispositivos de la compañía aún operan a 2.4 GHz, el administrador de red decide implementar el estándar 802.11 g. ¿Qué asignación de canales en varios puntos de acceso garantizará que los canales inalámbricos no se superpongan?
 
-    Canales 1, 6 y 11
+    **Canales 1, 6 y 11**
  
 16. ¿Qué protocolo debe deshabilitarse para ayudar a mitigar los ataques de VLAN?
 
