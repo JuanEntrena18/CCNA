@@ -1,60 +1,60 @@
 CCNA 2
 
 1. Los usuarios se quejan de un acceso esporádico a Internet cada tarde. ¿Qué se debe hacer o verificar?
-
-    **Compruebe las estadísticas de la ruta predeterminada para la sobresaturación.**
-	
+```
+    Compruebe las estadísticas de la ruta predeterminada para la sobresaturación.
+```
 2. Consulte la ilustración. ¿Qué hará el router R1 con 
 un paquete que tiene una dirección IPv6 de destino 2001:db8:cafe:5::1?
-
+```
     Reenviará el paquete por Serial0/0/0.
-   
+ ```  
 3. Haga coincidir el número de paso con la secuencia de etapas que se producen durante el proceso de 
 conmutación por error de HSRP. (No se utilizan todas las opciones).
-
+```
 	ACB
-	
+```
 4. Seleccione los tres modos de establecimiento de canales PAgP. (Escoja tres opciones).
-
+```
     auto
     deseado
     on
-	
+```
 5. Consulte la exhibición. Un switch de capa 3 se encarga del routing para tres VLAN y se conecta a un router para obtener conectividad a Internet. 
 ¿Cuáles son las dos configuraciones que se aplicarían al switch? (Elija dos).
-
+```
 	(config)# interface gigabitethernet 1/1
 	(config-if)# no switchport
 	(config-if)# ip address 192.168.1.2 255.255.255.252
 
 	(config)# ip routing
-	
+```
 6. El enrutamiento entre VLAN exitoso ha estado funcionando en una red con varias VLAN a través de varios switches durante algún tiempo. Cuando falla un vínculo troncal entre switch y el protocolo de árbol de expansión muestra un vínculo troncal de copia de seguridad, se informa de que los hosts de dos VLAN pueden acceder a algunos recursos de red, pero no a todos los que se podía acceder anteriormente. Los hosts de todas las demás VLAN no tienen este problema. ¿Cuál es la causa más probable de este problema?
-
+```
     Las VLAN permitidas en el vínculo de copia de seguridad no se configuraron correctamente.
- 	
+``` 	
 7. Consulte la ilustración. El administrador de red configura ambos switches como se muestra. Sin embargo, el host C no puede hacer ping al host D y el host E no puede hacer ping al host F. ¿Qué debe hacer el administrador para habilitar esta comunicación?
-
+```
     Configurar cualquier puerto de enlace troncal en el modo dinámico deseado.
-
+```
 8. Consulte la ilustración. Según la configuración y el resultado que se muestran, ¿por qué falta la VLAN 99?
 
 9. ¿Cuáles son los tres pares de modos de enlace troncal que establecen un enlace troncal funcional entre dos switches Cisco? (Elija tres).
-
+```
     Dinámico deseado y enlace troncal   
     Dinámico deseado y dinámico automático
     Dinámico deseado y dinámico deseado
-
+```
 10. Se ha configurado una ruta estática en un router. Sin embargo, la red de destino ya no existe. ¿Qué debe hacer un administrador para eliminar la ruta estática de la tabla de enrutamiento?
-
+```
     Elimine la ruta usando el comando no ip route .
-
+```
 11. Consulte la ilustración. Un administrador de redes agregó una nueva subred a la red y necesita que los hosts de dicha subred reciban direcciones IPv4 del servidor DHCPv4.
 ¿Qué dos comandos permiten que los hosts de la nueva subred reciban las direcciones del servidor DHCP4? (Elija dos opciones.)
-
+```
 	R1(config-if)# ip helper-address 10.2.0.250
 	R1(config)# interface G0/0
-	
+```
 12. Consulte la exhibición. Se configuró el R1 tal como se muestra. Sin embargo, la PC1 no puede recibir ninguna dirección IPv4. ¿Cuál es el problema?
 
 	El comando ip helper-address se aplicó en una interfaz incorrecta.
