@@ -1002,4 +1002,8 @@ _173. ¿Qué tres componentes se combinan para formar un ID de puente?
 
     Habilita portfast en una interfaz de conmutador específica.
 ```
+175. Consulte la exposición. ¿Qué comando de ruta estática se puede ingresar en el R1 para reenviar el tráfico a la LAN conectada a R2?
+```
+    ipv6 route 2001:db8:12:10 ::/64 S0/0/1 fe80 :: 2
+```
 
