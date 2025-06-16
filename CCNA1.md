@@ -1,418 +1,419 @@
 1. Un administrador de red esté diseñando la disposición de una nueva red inalámbrica. ¿Cuáles son las tres áreas de importancia que se deben tener en cuenta al crear una red inalámbrica? (Elija tres).
-
-    **Seguridad
+```
+    Seguridad
     Interferencia
-    Área de cobertura**
-
+    Área de cobertura
+```
 2. ¿Cuáles son los tres estándares comúnmente seguidos para construir e instalar cableado? (Escoja tres opciones).
-
+```
     longitudes de cable
     clavijas
     Tipos de conector
-
+```
 3. ¿Qué tecnología inalámbrica tiene requisitos de baja potencia y de velocidad de transmisión de datos que la convierte en popular para las aplicaciones de automatización doméstica?
-
+```
     ZigBee
-
+```
 4. Un servidor recibe un paquete del cliente. El paquete tiene el número de puerto de destino 21. ¿Qué aplicación de servicio solicita el cliente?
-
+```
     FTP
-
+```
 5. ¿Cuáles son los dos protocolos que operan en la capa superior del modelo TCP/IP? (Elija dos opciones).
-
+```
     DNS
     POP
-
+```
 6. Consulte la ilustración. Si la PC1 envía un paquete a la PC2 y se configuró el routing entre los dos routers, ¿qué hará el R1 con el encabezado de la trama de Ethernet conectado por la PC1?
-
+```
     Eliminar el encabezado de Ethernet y configurar un nuevo encabezado de capa 2 antes de enviarlo a través de S0/0/0.
-
+```
 7. Un empleado de una gran corporación inicia sesión de forma remota en la empresa utilizando el nombre de usuario y la contraseña apropiados. El empleado está asistiendo a una importante videoconferencia con un cliente sobre una gran venta. Es importante que la calidad del video sea excelente durante la reunión. El empleado no sabe que después de un inicio de sesión exitoso, la conexión con el ISP de la empresa falló. La conexión secundaria, sin embargo, se activa en cuestión de segundos. La interrupción no fue notada por el empleado u otros empleados.
 ¿ Qué tres características de red se describen en este escenario? (Elija tres opciones).
-
+```
     Seguridad
     Calidad de servicio
     Tolerancia a fallas
-
+```
 8. ¿Cuál es la consecuencia de configurar un router con el comando de configuración global ipv6 unicast-routing ?
-
+```
     Las interfaces de router habilitadas para IPv6 comienzan a enviar mensajes RA de ICMPv6.
-
+```
 9. ¿Cuál de las siguientes subredes incluiría la dirección 192.168.1.96 como dirección de host utilizable?
-
+```
     192.168.1.64/26
-
+```
 10. Consulte la ilustración.El host B en la subred Teachers transmite un paquete al host D en la subred Students. ¿Qué direcciones de Capa 2 y Capa 3 están contenidas en las PDU que se transmiten desde el host B al router?
-
+```
 Dirección de destino de capa 2 = 00-00-0c-94-36-ab 
 Dirección de origen de capa 2 = 00-00-0c-94-36-bb 
 Dirección de destino de capa 3 = 172.16.20.200 
 Dirección de origen de capa 3 = 172.16.10.200
-
+```
 11. ¿Cuáles son las tres capas del modelo OSI que se asignan a la capa de aplicación del modelo TCP/IP? (Elija tres opciones.)
-
+```
     Aplicación
     Presentación
     Sesión
-
+```
 12. ¿Cuáles de las siguientes son dos características de IP? (Elija dos opciones.)
-
+```
     No requiere una conexión completa exclusiva.
     Opera independientemente de los medios de red.
-
+```
 13. ¿Cuáles de las siguientes son dos características de ARP? (Elija dos).
-
+```
     Si hay un dispositivo que recibe una solicitud de ARP y tiene la dirección IPv4 de destino, responde con una respuesta de ARP.
     Si un host está listo para enviar un paquete a un dispositivo de destino local y tiene la dirección IP pero no la dirección MAC de destino, este genera un broadcast de ARP.
-
+```
 14. ¿Cuáles son los tres requisitos definidos por los protocolos utilizados en las comunicaciones de red para permitir la transmisión de mensajes a través de la red? (Elija tres opciones.)
-
+```
     Tamaño del mensaje
     Codificación del mensaje
     Opciones de entrega
-
+```
 15. ¿Cuál de estas situaciones describe una función proporcionada por la capa de transporte?
-
+```
     Un alumno tiene dos ventanas de explorador Web abiertas a fin de acceder a dos sitios Web. La capa de transporte garantiza que se entregue la página Web correcta a la ventana de explorador adecuada.
-
+```
 16. Consulte la ilustración. Un administrador intenta configurar el switch pero recibe el mensaje de error que se muestra en la ilustración. ¿Cuál es el problema?
-
+```
     El administrador primero debe ingresar al modo EXEC privilegiado antes de emitir el comando.
-
+```
 17. Una compañía tiene un servidor de archivos que comparte una carpeta con el nombre Pública. La política de seguridad de la red especifica que, en relación con la carpeta Pública, se asignen derechos de solo lectura a cualquier persona que puede iniciar sesión en el servidor y derechos de edición solo al grupo de administradores de la red. ¿Qué componente se aborda en la estructura de servicios de red de AAA?
-
+```
     Autorización
-
+```
 18. ¿Qué sucede si se configura de forma incorrecta la dirección de gateway predeterminado en un host?
-
+```
     El host no puede comunicarse con hosts en otras redes.
-
+```
 19. ¿Cuáles son dos causas comunes de degradación de la señal cuando se utiliza el cableado UTP? (Escoja dos opciones).
-
+```
     terminación incorrecta
     cable o conectores de baja calidad
-
+```
 20. Una cada descripción con una dirección IP adecuada. (No se utilizan todas las opciones.)
-
+```
 Una dirección link-local 	169.254.1.5
 Una dirección de bucle invertido 	127.0.0.1
 Una dirección experimental 	240.2.6.255
 Una dirección pública 	198.133.219.2
-
+```
 21. ¿Qué significa el término “atenuación” en la comunicación de datos?
 ¿Qué significa el término «atenuación» en la comunicación de datos?
-
+```
     pérdida de intensidad de la señal a medida que aumenta la distancia
-
+```
 22. ¿Cuáles son las dos afirmaciones que describen cómo evaluar los patrones de flujo de tráfico y los tipos de tráfico de red mediante un analizador de protocolos? (Elija dos opciones.)
-
+```
     Realizar la captura en diferentes segmentos de la red.
     Capturar tráfico en horas de uso pico para obtener una buena representación de los diferentes tipos de tráfico.
-
+```
 23. Los usuarios informan que el acceso a la red es lento. Después de preguntar a los empleados, el administrador de red descubrió que un empleado descargó un programa de análisis de terceros para la impresora. ¿Qué tipo de malware puede introducirse, que provoque el rendimiento lento de la red?
-
+```
     Gusano
-
+```
 24. Consulte la ilustración. Según el resultado, ¿cuáles son las dos afirmaciones correctas sobre la conectividad de red? Elija dos opciones.
-
+```
     Hay conectividad entre este dispositivo y el que se encuentra en 192.168.100.1.
     Hay cuatro saltos entre este dispositivo y el que se encuentra en 192.168.100.1.
-
+```
 25. Los usuarios informan retrasos más prolongados en la autenticación y en el acceso a los recursos de red durante determinados períodos de la semana. ¿Qué tipo de información deben revisar los ingenieros de red para descubrir si esta situación forma parte del comportamiento normal de la red?
-
+```
     La línea de base de rendimiento de la red
-
+```
 26. ¿Qué dos tipos de tráfico utilizan el Protocolo de transporte en tiempo real (RTP)? (Escoja dos opciones).
-
+```
     Video
     Voz
- 
+ ```
 27. Un empleado descontento está usando algunas herramientas de red inalámbrica gratuitas para determinar información sobre las redes inalámbricas de la empresa. Esta persona está planeando usar esta información para hackear la red inalámbrica. ¿Qué tipo de ataque es este?
-
+```
     Reconocimiento
-
+```
 28. ¿Cuáles son los dos métodos más eficaces para defenderse del malware? (Elija dos opciones).
-
+```
     Actualizar el sistema operativo y otro software de la aplicación.
     Instalar y actualizar el software antivirus.
-
+```
 29. El comando de configuración global ip default-gateway 172.16.100.1 se aplica a un switch. ¿Cuál es el efecto de este comando?
-
+```
     El switch se puede administrar de forma remota desde un host en otra red.
-
+```
 30. ¿Qué sucede cuando se ingresa el comando transport input ssh en las líneas vty del switch?
-
+```
     La comunicación entre el switch y los usuarios remotos está cifrada.
-
+```
 31. ¿Qué tipo de servidor se basa en tipos de registro como A, NS, AAAA y MX para proporcionar servicios?
-
+```
     DNS
-
+```
 32. ¿Cuál de las siguientes es una ventaja de adoptar IMAP en lugar de POP para organizaciones pequeñas?
-
+```
     Los mensajes se mantienen en los servidores de correo electrónico hasta que se eliminan manualmente del cliente de correo electrónico.
-
+```
 33. ¿Qué dos funciones se realizan en la subcapa LLC de la capa de enlace de datos OSI para facilitar la comunicación Ethernet? (Escoja dos opciones).
-
+```
     agrega información en la trama Ethernet que identifica cual protocolo de la capa de red esta siendo encapsulado en la trama.  
     permite que IPv4 e IPv6 utilicen el mismo medio físico
-
+```
 Otro caso:
-
+```
     agrega información de control Ethernet a los datos de protocolo de red
     permite que IPv4 e IPv6 utilicen el mismo medio físico
-
+```
 Otro caso:
-
+```
     gestiona la comunicación entre el software de red de capa superior y el hardware de NIC Ethernet
     permite que IPv4 e IPv6 utilicen el mismo medio físico
-
+```
 34. Consulte la ilustración. Una la red con la dirección IP y el prefijo correctos que cumplan con los requisitos de direccionamiento de host utilizable para cada red. (No se utilizan todas las opciones).
-
+```
 	A-25 B-26 C-27 D-30
-
+```
 35. ¿Qué máscara de subred se necesita si una red IPv4 tiene 40 dispositivos que necesitan direcciones IP y si no se debe desperdiciar espacio de direcciones?
-
+```
     255.255.255.192
-
+```
 36. Consulte la ilustración. El administrador de red ha asignado a la LAN de LBMISS un rango de direcciones de 192.168.10.0. Este intervalo de direcciones se ha segregado utilizando un prefijo /29. Para acomodar un nuevo edificio, el técnico ha decidido utilizar la quinta subred para configurar la nueva red (la subred cero es la primera subred). Según las directivas de la empresa, a la interfaz del router siempre se le asigna la primera dirección de host utilizable y al servidor del grupo de trabajo se le asigna la última dirección de host utilizable. ¿Qué configuración se debe introducir en las propiedades del servidor de grupo de trabajo para permitir la conectividad a Internet?
-
+```
     Dirección IP: 192.168.10.38 máscara de subred: 255.255.255.248, puerta de enlace predeterminada: 192.168.10.33
-
+```
 37. ¿Cuáles son dos mensajes ICMPv6 que no están presentes en ICMP para IPv4? (Escoja dos opciones).
-
+```
     Solicitud de vecino
     Anuncio de router
-
+```
 38. ¿Qué característica describe el software antivirus?
-
+```
     aplicaciones que protegen a los dispositivos finales de infectarse con software malintencionado 
-
+```
 39. Un usuario está ejecutando el comando tracert a un dispositivo remoto. ¿En qué momento dejaría de reenviar el paquete un router que se encuentra en la ruta hacia el dispositivo de destino?
-
+```
     Cuando el valor en el campo TTL llega a cero
-
+```
 40. ¿Qué servicio proporciona DNS?
-
+```
     Traduce los nombres de dominio tales como cisco.com a direcciones IP
-    
+``` 
 41. ¿Por qué un switch de capa 2 necesitaría una dirección IP?
-
+```
     Para habilitar el switch de modo que se administre de forma remota.
-
+```
 42. ¿Cuál de estos comandos se puede utilizar en un equipo Windows para ver la configuración IP de esa PC?
-
+```
     ipconfig
-
+```
 43. ¿Qué atributo de una NIC lo colocaría en la capa de enlace de datos del modelo OSI?
-
+```
     Dirección MAC
-
+```
 44. ¿Cual campo/sección de una trama es creado por un nodo de origen y utilizado por un nodo de destino para garantizar que una señal de datos transmitida no se ha alterado por interferencia, distorsión o pérdida de señal?
-
+```
     campo Secuencia de Verificación de la Trama (FCS)
-
+```
 45. ¿Qué método se utiliza para administrar el acceso por contienda en una red inalámbrica?
-
+```
     CSMA/CA
-
+```
 46. ¿Cuál es la ventaja de utilizar un protocolo definido por un estándar abierto?
-
+```
     Fomenta la competencia y promueve las opciones.
-
+```
 47. Una cada descripción con el término correspondiente. No se utilizan todas las opciones.
-
+```
 Codificación del mensajeg 	Proceso de convertir la información de un formato a otro aceptable para la transmisión
 Encapsulamiento del mensaje 	Proceso de colocar un formato de mensaje dentro de otro
 Estimación de tamaño del mensaje 	Proceso de dividir un mensaje largo en partes individuales antes de enviarlo por la red
-
+```
 48. ¿Cuáles de las siguientes son dos funciones que proporciona la capa de red? (Elija dos).
-
+```
     Proporcionar a los dispositivos finales un identificador de red único.
     Dirigir los paquetes de datos a los hosts de destino en otras redes.
-
+```
 49. Durante el proceso de reenvío de tráfico, ¿qué hace el router de inmediato después de identificar la dirección IP de destino con una red en una entrada de la tabla de enrutamiento conectada directamente?
-
+```
     Conmutar el paquete a la interfaz conectada directamente.
-
+```
 50. ¿Cuáles son las dos afirmaciones correctas en una comparación de encabezados de paquetes IPv4 e IPv6? (Elija dos).
-
+```
     En IPv6, el campo Límite de saltos reemplazó al campo Tiempo de vida de IPv4.
     El nombre del campo Dirección de origen del encabezado de IPv4 se mantiene en IPv6.
-
+```
 51. Una los protocolos de aplicación con los protocolos de transporte correctos.
-	
+```
 	TCP - FTP, HTTP, SMTP
 	UDP - TFTP, DHCP
-	
+```
 52. ¿Cuál es el propósito de la ventana deslizante de TCP?
-
+```
     Solicitar a un origen que reduzca la velocidad de transferencia de datos.
-
+```
 53. ¿Cuáles son las tres partes de una dirección IPv6 unicast global? (Elija tres).
-
+```
     ID de interfaz
     ID de subred
     Prefijo de enrutamiento global
-
+```
 54. ¿Cuál sería el ID de interfaz, de una interfaz habilitada para IPv6 con una dirección MAC de 1C-6F-65-C2-BD-F8, cuando el ID de interfaz se genera mediante el proceso EUI-64?
-
+```
     1E6F:65FF:FEC2:BDF8
-
+```
 55. ¿Cuál de estos intervalos de direcciones link-local se puede asignar a una interfaz con IPv6 habilitado?
-
+```
     FE80::/10
-
+```
 56. ¿Cuál de los siguientes es un beneficio del uso de la computación en la nube en las redes?
-
+```
     Se extienden las funcionalidades de red sin necesidad de invertir en infraestructura, personal ni software nuevos.
-
+```
 57. Un administrador de red está agregando una nueva LAN a una sucursal. La nueva LAN debe admitir 4 dispositivos conectados. ¿Cuál es la máscara de red más pequeña que el administrador de red puede usar para la nueva red?
-
+```
     255.255.255.248
-
+```
 58. ¿Cuáles son las dos afirmaciones correctas sobre direcciones MAC e IP durante la transmisión de datos si no hay NAT? (Elija dos).
-
+```
     Las direcciones IP de destino en un encabezado del paquete se mantienen constantes a lo largo de toda la ruta a un host de destino.
     Las direcciones MAC de destino y de origen tienen importancia local y cambian cada vez que una trama va de una LAN a otra.
-
+```
 59. Una la característica con el método de reenvío. (No se utilizan todas las opciones).
-
+```
 Baja latencia. 	por método de corte
 Puede reenviar runt frames. 	por método de corte
 Comienza a reenviar cuando se recibe la dirección de destino. 	por método de corte
 Siempre almacena la trama completa. 	por almacenamiento y envío
 Realiza la CRC antes de reenviar. 	por almacenamiento y envío
 Revisa la longitud de la trama antes de reenviar. 	por almacenamiento y envío
-
+```
 60. Asocie las características con las categorías. (No se utilizan todas las opciones).
-	DIR IP - cpapa3, separados red id, 32 o 128
+```
+ DIR IP - cpapa3, separados red id, 32 o 128
 	DIR MAC - capa2, oui y id unico, 48 bits
-
+```
 61. ¿Qué conector se utiliza con el cableado de par trenzado en una LAN Ethernet?
 
 
 62. Consulte la ilustración. ¿Cuál es el problema con la terminación que se muestra?
-
+```
     La longitud de la parte sin trenzar de cada cable es demasiado larga.
-
+```
 63. Un técnico con una PC está utilizando varias aplicaciones mientras está conectado a Internet. ¿Cómo hace la PC para no perder de vista el flujo de datos entre las sesiones de varias aplicaciones y para que cada una de ellas reciba los flujos de paquetes correctos?
-
+```
     Se realiza el seguimiento del flujo de datos según el número de puerto de origen utilizado por cada aplicación.
-
+```
 64. Tres empleados de un banco utilizan la red corporativa. El primer empleado utiliza un explorador Web para ver una página Web de la compañía con el objetivo de leer algunos anuncios. El segundo empleado accede a la base de datos corporativa para realizar algunas transacciones financieras. El tercer empleado participa en una importante conferencia de audio en vivo con otros gerentes corporativos ubicados en sucursales. Si se implementa QoS en esta red, ¿cuál será el orden de prioridad de los diversos tipos de datos, de mayor a menor importancia?
-
+```
     Conferencia de audio, transacciones financieras, página Web
-
+```
 65. Un técnico puede hacer ping a la dirección IP del servidor web de una empresa remota, pero no puede hacer ping correctamente a la dirección URL del mismo servidor web. ¿Qué utilidad de software puede utilizar para diagnosticar el problema?
-
+```
     nslookup
-
+```
 66. Un administrador definió una cuenta de usuario local con una contraseña secreta en el router R1 para usarla con SSH. ¿Qué tres pasos adicionales se requieren para configurar R1 para aceptar solo conexiones SSH cifradas? (Escoja tres opciones).
-
+```
     Habilitar las sesiones SSH de entrada vty.
     Configurar el nombre de dominio IP en el router.
     Generar las claves SSH.
-
+```
 67. Una el tipo de amenaza con la causa. (No se utilizan todas las opciones).
-
+```
 Amenazas ambientales 	Extremos de temperatura (demasiado calor o demasiado frío) o extremos de humedad (demasiado húmedo o demasiado seco)
 Amenazas eléctricas 	Voltage spikes, insufficient supply voltage (brownouts), unconditioned power (noise), and total power loss
 Amenazas de mantenimiento 	Manejo deficiente de componentes eléctricos clave (descarga electrostática), falta de repuestos críticos, cableado y etiquetado deficientes
 Amenazas de hardware 	Daño físico a servidores, routers, switches, planta de cableado y estaciones de trabajo
-
+```
 68. ¿Qué información muestra el comando show startup-config ?
-
+```
     El contenido del archivo de configuración guardado en la NVRAM
-
+```
 69. ¿Cómo mejora la seguridad de las contraseñas en los routers y switches Cisco el comando service password-encryption ?
-
+```
     Cifra las contraseñas que se almacenan en los archivos de configuración del router o del switch.
-
+```
 70. Consulte la ilustración. Los switches tienen su configuración predeterminada. El host A debe comunicarse con el host D, pero no tiene la dirección MAC del gateway predeterminado. ¿Qué hosts de la red reciben la solicitud de ARP que envía el host A?
-
+```
     Solo los hosts B y C, y el router R1
-
+```
 71. ¿Qué servicio proporciona DHCP?
-
+```
     Asigna direcciones IP dinámicamente a dispositivos finales e intermedios.
-
+```
 72. ¿Qué dos funciones se realizan en la subcapa MAC de la capa de enlace de datos OSI para facilitar la comunicación Ethernet? (Escoja dos opciones).
-
+```
     implementa CSMA/CD sobre medios semidúplex compartidos heredados
     integra flujos de Capa 2 entre 10 Gigabit Ethernet sobre fibra y 1 Gigabit Ethernet sobre cobre
-
+```
 Otro caso 2
-
+```
     responsable de la estructura interna de la trama Ethernet
     implementa un trailer con secuencia de verificación de trama para la detección de errores
-
+```
 Otro caso 3
-   
+```   
     implementa un trailer con secuencia de verificación de trama para la detección de errores
     implementa un proceso para delimitar campos dentro de una trama Ethernet 2
-
+```
 Otro caso 4
-
+```
     aplica direcciones MAC de origen y destino a la trama Ethernet
     aplica la delimitación de campos de trama Ethernet para sincronizar la comunicación entre nodos
-
+```
 73. Un administrador de red está agregando una nueva LAN a una sucursal. La nueva LAN debe admitir 200 dispositivos conectados. ¿Cuál es la máscara de red más pequeña que el administrador de red puede usar para la nueva red?
-
+```
     255.255.255.0
-
+```
 74. ¿Qué valor incluido en un campo de encabezado de IPv4 reduce cada router cuando recibe un paquete?
-
+```
     Tiempo de vida
-
+```
 75. ¿Cuáles dos instrucciones describen las características de una tabla de enrutamiento IPv4 en un router? (Escoja dos opciones).
- 
+ ```
     Si se configura una ruta estática predeterminada en el router, se incluirá una entrada en la tabla de enrutamiento con el código fuente S.
-
+```
 76. ¿Cuáles son los dos comandos que se pueden utilizar en un host de Windows para mostrar la tabla de enrutamiento? (Elija dos).
-
+```
     netstat -r
     route print
-
+```
 77. Se asigna un bloque de direcciones IPv6 2001:db8:0:ca00::/56 a una organización. ¿Cuántas subredes se pueden crea sin usar bits en el espacio de ID de interfaz?
-
+```
     256
-
+```
 78. Una la descripción con el componente de direccionamiento IPv6. (No se utilizan todas las opciones).
-
+```
 	Organizaciones - ID Subred
 	Proveedor - Prefijo de enrutamiento
 	Porcion host - ID Interfaz
-	
+```	
 79. ¿Qué característica describe un adware?
-
+```
     software instalado en una computadora para recolectar información del usuario
-
+```
 80. Se ha pedido a un nuevo administrador de red que introduzca un banner en un dispositivo Cisco. ¿Cuál es la forma más rápida en que un administrador de red podría probar si el banner está configurado correctamente?
-
+```
     Salir del modo EXEC privilegiado y pulsar Enter .
-
+```
 81. Un administrador de redes quiere utilizar la misma máscara de subred para tres subredes en un sitio pequeño. El sitio tiene las siguientes redes y cantidad de dispositivos:
-
+```
     Subred A: teléfonos IP (10 direcciones)
     Subred B: PC (8 direcciones)
     Subred C: impresoras (2 direcciones)
-
+```
 ¿Cuál sería la única máscara de subred adecuada para utilizar en las tres subredes?
-
+```
     255.255.255.240
-
+```
 82. Un administrador de redes quiere utilizar la misma máscara de red para todas las redes en un sitio pequeño en particular. El sitio tiene las siguientes redes y cantidad de dispositivos:
-
+```
     Teléfonos IP: 22 direcciones
     PC: 20 direcciones necesarias
     Impresoras: 2 direcciones necesarias
     Escáneres: 2 direcciones necesarias
-
+```
 El administrador de redes considera que la red que se utilizará en este sitio es 192.168.10.0/24. ¿Cuál es la máscara de subred única que utilizaría las direcciones disponibles para las cuatro subredes de la manera más eficaz?
-
+```
     255.255.255.224
-
+```
 83. Una cada tipo de campo de trama con la función correspondiente. (No se utilizan todas las opciones.)
 
 	Direccionamiento - este campo ayuda a dirigir trama
